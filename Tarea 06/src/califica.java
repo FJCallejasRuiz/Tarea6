@@ -3,9 +3,9 @@ public class califica {
 
 	/**
 	 * @param num_nota
-	 * @return
+	 * @return calificacion en formato string
 	 */
-	public califica(final int num_nota) {
+	public static String califica(final int num_nota) {
 		String calificacion;
 		if (num_nota >= 0 && num_nota < 5) {
 			calificacion = "Suspenso";
